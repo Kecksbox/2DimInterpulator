@@ -1,0 +1,1 @@
+demo\script.ts lib\datatypes\DataPoint.ts lib\datatypes\Grid.ts lib\datatypes\InterpolationData.ts lib\datatypes\Interpulation.ts lib\index.ts test\utilities\combinatorics.getAllDisorderedPointPairs.test.ts --sourcemap --declaration --removeComments --esModuleInterop --strict --target ES2018 --module commonjs --outDir dist
