@@ -42,4 +42,3 @@ test('predicts 1.5 for (0.5, 0.75)', () => {
         y: 0.75,
     })).toBe(2);
 });
-//# sourceMappingURL=Grid.test.js.map

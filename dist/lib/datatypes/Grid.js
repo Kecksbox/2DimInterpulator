@@ -14,8 +14,11 @@ class Grid {
         }
     }
     predict(point) {
+        // find 3-nearest-neighbours
         const nearestNeighbours = this.find3NearestNeighbours(point);
+        // calcualte plain parameters B
         const plainParamters = this.caluclatePlainParameters(nearestNeighbours);
+        // calculate the points value
         return this.calculate(point, plainParamters);
     }
     calculate(point, plainParamters) {
@@ -57,4 +60,3 @@ class Grid {
     }
 }
 exports.default = Grid;
-//# sourceMappingURL=Grid.js.map

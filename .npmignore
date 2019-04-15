@@ -1,0 +1,4 @@
+lib/
+test/
+.tscache/
+node_modules/
