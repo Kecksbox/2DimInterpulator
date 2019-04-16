@@ -5,6 +5,12 @@ class Grid {
         this.data = data;
     }
     add(dataPoint) {
+        for (let i = 0, len = this.data.length; i < len; ++i) {
+            if (this.data[i].x === dataPoint.x && this.data[i].y === dataPoint.y) {
+                this.data[i].z = dataPoint.z;
+                return;
+            }
+        }
         this.data.push(dataPoint);
     }
     remove(dataPoint) {
